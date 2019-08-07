@@ -45,21 +45,22 @@
 - Intel UHD Graphics (1536Mb) -Two Fan Speed (Default and Max) 
 - All USB 3.1 and type-C (basic USB Functions)
 - And other Basic Functionality
+- TrackPad Detected and Working
 
 #### What's Not Working:
 
 - Wifi and Bluetooth
-- Trackpad (Still working on it) 
+- ~~Trackpad (Still working on it) ~~
 - iCloud,imessages due to no valid serial key
 - Numpad
 - Unable to use type-C to hdmi convertor
 
 #### ToDo
 
--  I2C Touchpad
--  Brightness Control
--  Sound
--  Fix Black Screen when laptop sleeps
+[X] I2C Touchpad
+[X] Brightness Control
+[X] Sound
+[ ] Fix Black Screen when laptop sleeps
 
 #### Credits
 
