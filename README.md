@@ -57,10 +57,10 @@
 
 #### ToDo
 
-[X] I2C Touchpad
-[X] Brightness Control
-[X] Sound
-[ ] Fix Black Screen when laptop sleeps
+- ~~I2C Touchpad~~
+- ~~Brightness Control~~
+- ~~Sound~~
+- Fix Black Screen when laptop sleeps
 
 #### Credits
 
