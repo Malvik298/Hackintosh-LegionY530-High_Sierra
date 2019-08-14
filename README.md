@@ -47,6 +47,13 @@
 - And other Basic Functionality
 - TrackPad Detected and Working
 
+#### Not able to get working touchpad ?
+ 1. If you are on the same BIOS as me then spam Fn+O during startup. 
+ 2. Enter Advance BIOS Menu and go to ACPI Menu.
+ 3. Set it to Auto configuration.
+ 4. Find Toucpad Delay Option in the IO settings and set the delay to 0 from 68.
+ 5. Save the changes and Reboot.
+
 #### What's Not Working:
 
 - Wifi and Bluetooth
