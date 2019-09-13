@@ -53,6 +53,8 @@
  3. Set it to Auto configuration.
  4. Find Toucpad Delay Option in the IO settings and set the delay to 0 from 68.
  5. Save the changes and Reboot.
+ 6. Delete AppleHPM.kext, AppleIntelLpssI2C.kext, AppleIntelLpssI2CController.kext from Extensions Folder
+ 7. Reboot the OS
 
 #### What's Not Working:
 
