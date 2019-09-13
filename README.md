@@ -48,19 +48,20 @@
 - TrackPad Detected and Working
 
 #### Not able to get working touchpad ?
- 1. If you are on the same BIOS as me then spam Fn+O during startup. 
- 2. Enter Advance BIOS Menu and go to ACPI Menu.
- 3. Set it to Auto configuration.
- 4. Find Toucpad Delay Option in the IO settings and set the delay to 0 from 68.
- 5. Save the changes and Reboot.
- 6. Delete AppleHPM.kext, AppleIntelLpssI2C.kext, AppleIntelLpssI2CController.kext from Extensions Folder
- 7. Reboot the OS
+ 1. If you are on the same BIOS as me then enter BIOS.
+ 2. Press Fn+Tab, Fn+asdfgh and then Fn+O and then save changes and reboot. Press F2 when you see a Blue Box.
+ 3. Enter Advance BIOS Menu and go to ACPI Menu.
+ 4. Set it to Auto configuration.
+ 5. Find Toucpad Delay Option in the IO settings and set the delay to 0 from 68.
+ 6. Save the changes and Reboot.
+ 7. Delete AppleHPM.kext, AppleIntelLpssI2C.kext, AppleIntelLpssI2CController.kext from Extensions Folder
+ 8. Reboot the OS
 
 #### What's Not Working:
 
 - Wifi and Bluetooth
 - ~~Trackpad (Still working on it) ~~
-- iCloud,imessages due to no valid serial key
+- Facetime,iMessages due to no valid serial key
 - Numpad
 - Unable to use type-C to hdmi convertor
 
