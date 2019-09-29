@@ -12,7 +12,7 @@
 |     Storage     |   SSD : Toshiba 120Gb PCIe M.2   |                         No issues                         |
 |     Screen      | 15.6" Full HD@60Hz,1920x1080 IPS |                         No issues                         |
 |      WiFI       |      Intel Wireless-AC 9560      |                       Incompatible                        |
-|    Touchpad     |     I2C HID Touchpad (TPD0)      |                        Not Working                        |
+|    Touchpad     |     I2C HID Touchpad (TPD0)      |                        Working                        |
 |       USB       |          USB 3.1 Gen1x3          |                         No issues                         |
 |                 |         Type-C 3.1 Gen1          |                         No issues                         |
 | HDMI and MiniDP | Not Working due to disabled dGPU |                      Nvidia disabled                      |
@@ -48,14 +48,13 @@
 - TrackPad Detected and Working
 
 #### Not able to get working touchpad ?
- 1. If you are on the same BIOS as me then enter BIOS.
- 2. Press Fn+Tab, Fn+asdfgh and then Fn+O and then save changes and reboot. Press F2 when you see a Blue Box.
- 3. Enter Advance BIOS Menu and go to ACPI Menu.
- 4. Set it to Auto configuration.
- 5. Find Toucpad Delay Option in the IO settings and set the delay to 0 from 68.
- 6. Save the changes and Reboot.
- 7. Delete AppleHPM.kext, AppleIntelLpssI2C.kext, AppleIntelLpssI2CController.kext from Extensions Folder
- 8. Reboot the OS
+ 1. Press Fn+Tab, Fn+asdfgh and then Fn+O and then save changes and reboot. Press F2 when you see a Blue Box.
+ 2. Enter Advance BIOS Menu and go to ACPI Menu.
+ 3. Set it to Auto configuration.
+ 4. Find Toucpad Delay Option in the IO settings and set the delay to 0 from 68.
+ 5. Save the changes and Reboot.
+ 6. Delete AppleHPM.kext, AppleIntelLpssI2C.kext, AppleIntelLpssI2CController.kext from Extensions Folder
+ 7. Reboot the OS
 
 #### What's Not Working:
 
