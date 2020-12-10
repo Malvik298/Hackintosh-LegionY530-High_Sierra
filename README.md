@@ -59,7 +59,7 @@
 #### What's Not Working:
 
 - Wifi and Bluetooth
-- ~~Trackpad (Still working on it) ~~
+- ~~Trackpad (Still working on it)~~
 - Facetime,iMessages due to no valid serial key
 - Numpad
 - Unable to use type-C to hdmi convertor
